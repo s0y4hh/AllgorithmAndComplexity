@@ -2,6 +2,7 @@
 
 """Coin Exchange Problem"""
 
+# Import the Figlet module to create a banner
 from pyfiglet import Figlet
 def create_banner(text, font='small'):
     fig = Figlet(font=font)
