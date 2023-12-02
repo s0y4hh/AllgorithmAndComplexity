@@ -24,6 +24,7 @@ def maximum_matching_bipartite_graph(graph):
     """
     # Rest of the code...
 def maximum_matching_bipartite_graph(graph):
+    
     # This function is an implementation of the Hopcroft-Karp algorithm for finding maximum matching in bipartite graphs
     # The graph parameter should be a NetworkX bipartite graph
 
@@ -70,7 +71,12 @@ def maximum_matching_bipartite_graph(graph):
             break
 
     return matching
-# Example: College Admissions
+# Example: PROJECT ROLE ASSIGNMENT OF STUDENTS IN DATA STRUCTURES AND ALGORITHMS LEARNING TASK
+
+"""
+SINCE THE PROJECT ROLE IS ONLY LIMITED TO 3 ROLES,
+THAT THERE WILL BE 1 PROJECT ROLE TO BE ASSIGNED TO 2 STUDENTS
+"""
 projectRole = ["Programmer", "Documentation", "Presentor"]
 groupMember = ["Student1", "Student2", "Student3", "Student4"]
 
